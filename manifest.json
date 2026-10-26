@@ -1,0 +1,26 @@
+{
+  "name": "SuleimanBiopythonPractised | Computational Biology & Biostatistics Portal",
+  "short_name": "BiopythonPractised",
+  "description": "Interactive computational biology suite, sequence analytics workbench, ANOVA laboratory, and structural bioinformatics hub.",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#030712",
+  "theme_color": "#06B6D4",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "64x64",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/logo-emblem.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

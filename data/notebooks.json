@@ -1,0 +1,162 @@
+[
+  {
+    "id": "nb-01",
+    "title": "Biopython Lesson 1: Fundamentals of Central Dogma",
+    "filename": "Biopython 1ci ders.ipynb",
+    "category": "sequence",
+    "level": "Beginner",
+    "description": "Exploration of Bio.Seq objects, reverse complementation, transcription, and translation using standard IUPAC codon dictionaries.",
+    "tools": ["Bio.Seq", "Bio.SeqUtils", "Python 3.12"],
+    "path": "practice_notebooks/Biopython%201ci%20ders.ipynb"
+  },
+  {
+    "id": "nb-02",
+    "title": "SeqRecord & GenBank Parsing Seminar",
+    "filename": "Biopython ders 2.ipynb",
+    "category": "sequence",
+    "level": "Intermediate",
+    "description": "High-throughput parsing of multi-feature GenBank (.gbk) and FASTA files using Bio.SeqIO with feature key extraction.",
+    "tools": ["Bio.SeqIO", "SeqFeature", "GenBank"],
+    "path": "practice_notebooks/Biopython%20ders%202.ipynb"
+  },
+  {
+    "id": "nb-03",
+    "title": "Homework 1: Central Dogma Operations",
+    "filename": "firstHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Beginner",
+    "description": "Comprehensive practical exercises on GC content calculation, codon frequency calculation, and melting temperature estimation.",
+    "tools": ["Bio.Seq", "Bio.SeqUtils"],
+    "path": "practice_notebooks/firstHomeWork.ipynb"
+  },
+  {
+    "id": "nb-04",
+    "title": "Homework 4: Multiple Sequence Alignments",
+    "filename": "fourthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Intermediate",
+    "description": "Parsing multi-species alignment matrices in Clustal, Phylip, and Stockholm formats using Bio.AlignIO.",
+    "tools": ["Bio.AlignIO", "ClustalW", "Phylip"],
+    "path": "practice_notebooks/fourthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-05",
+    "title": "Homework 5: Automated NCBI Entrez Queries",
+    "filename": "fifthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Intermediate",
+    "description": "Programmatic retrieval of biomedical publications and nucleotide sequences via NCBI E-utilities (esearch, efetch).",
+    "tools": ["Bio.Entrez", "E-utilities", "PubMed"],
+    "path": "practice_notebooks/fifthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-06",
+    "title": "Homework 8: Modern Dynamic Pairwise Alignment",
+    "filename": "eighthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Advanced",
+    "description": "Smith-Waterman and Needleman-Wunsch dynamic programming alignments via Bio.Align.PairwiseAligner with affine gap scoring.",
+    "tools": ["Bio.Align.PairwiseAligner", "BLOSUM62"],
+    "path": "practice_notebooks/eighthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-07",
+    "title": "Homework 11: Programmatic BLAST Interface",
+    "filename": "eleventhHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Advanced",
+    "description": "Submitting remote BLASTn and BLASTp queries to NCBI servers, XML parsing, and E-value threshold filtering.",
+    "tools": ["Bio.Blast.NCBIWWW", "Bio.Blast.NCBIXML"],
+    "path": "practice_notebooks/eleventhHomeWork.ipynb"
+  },
+  {
+    "id": "nb-08",
+    "title": "Homework 14: Sequence Motifs & Position Weight Matrices",
+    "filename": "fourteenthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Advanced",
+    "description": "Derivation of Position Frequency Matrices (PFM), Position Weight Matrices (PWM), and information content logos.",
+    "tools": ["Bio.motifs", "JASPAR", "PWM"],
+    "path": "practice_notebooks/fourteenthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-09",
+    "title": "Homework 15: In-Silico Restriction Enzyme Digestion",
+    "filename": "fifteenthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Intermediate",
+    "description": "Mapping bacterial plasmid cleavage sites, double digests, and fragment length predictions using Bio.Restriction.",
+    "tools": ["Bio.Restriction", "Plasmid Mapping"],
+    "path": "practice_notebooks/fifteenthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-10",
+    "title": "Homework 18: Molecular Phylogenetics & Tree Parsing",
+    "filename": "eighteenthHomeWork.ipynb",
+    "category": "sequence",
+    "level": "Advanced",
+    "description": "Reconstruction and visualization of phylogenetic trees using Bio.Phylo, Newick parsers, and distance matrix algorithms.",
+    "tools": ["Bio.Phylo", "Newick", "Neighbor-Joining"],
+    "path": "practice_notebooks/eighteenthHomeWork.ipynb"
+  },
+  {
+    "id": "nb-11",
+    "title": "One-Way ANOVA: Drug Action on Enzyme Activity",
+    "filename": "ANOVA_Drug_Enzyme_Activity_Project.ipynb",
+    "category": "biostatistics",
+    "level": "Intermediate",
+    "description": "Hypothesis testing on Alanine Aminotransferase (ALT) levels across 4 pharmacological dosage cohorts with post-hoc Tukey HSD.",
+    "tools": ["statsmodels", "scipy.stats", "seaborn"],
+    "path": "biostatistics/ANOVA_Drug_Enzyme_Activity_Project.ipynb"
+  },
+  {
+    "id": "nb-12",
+    "title": "Advanced Multi-Factor Factorial ANOVA",
+    "filename": "Advanced_ANOVA.ipynb",
+    "category": "biostatistics",
+    "level": "Advanced",
+    "description": "Two-factor and three-factor full factorial models, main effects evaluation, interaction significance, and effect size (eta-squared).",
+    "tools": ["statsmodels.formula.api", "OLS", "pingouin"],
+    "path": "biostatistics/Advanced_ANOVA.ipynb"
+  },
+  {
+    "id": "nb-13",
+    "title": "Extended ANOVA: Step-by-Step Variance Decomposition",
+    "filename": "Extended_ANOVA_Beginner_Project.ipynb",
+    "category": "biostatistics",
+    "level": "Beginner",
+    "description": "Manual calculation of Sum of Squares (Total, Between, Within), Mean Squares, F-distribution p-values, and statistical power.",
+    "tools": ["numpy", "pandas", "matplotlib"],
+    "path": "biostatistics/Extended_ANOVA_Beginner_Project.ipynb"
+  },
+  {
+    "id": "nb-14",
+    "title": "Clinical Trial Interaction Plots & Synergism Modeling",
+    "filename": "Interaction_Plot_Clinical_Trial.ipynb",
+    "category": "biostatistics",
+    "level": "Intermediate",
+    "description": "Quantifying treatment-by-time and drug-by-gender interactions in longitudinal randomized controlled clinical datasets.",
+    "tools": ["statsmodels", "seaborn", "interaction_plot"],
+    "path": "biostatistics/Interaction_Plot_Clinical_Trial.ipynb"
+  },
+  {
+    "id": "nb-15",
+    "title": "Intermediate ANOVA: Model Diagnostics & Post-Hoc Tests",
+    "filename": "Intermediate_ANOVA_Tutorial.ipynb",
+    "category": "biostatistics",
+    "level": "Intermediate",
+    "description": "Verification of homoscedasticity (Levene's test), normality of residuals (Shapiro-Wilk, Q-Q plots), and Welch's robust ANOVA.",
+    "tools": ["scipy.stats", "statsmodels", "TukeyHSD"],
+    "path": "biostatistics/Intermediate_ANOVA_Tutorial.ipynb"
+  },
+  {
+    "id": "nb-16",
+    "title": "Protein-Ligand Interaction & 3D Binding Pocket Profiling",
+    "filename": "ProteinLigandAnalysis.ipynb",
+    "category": "structural",
+    "level": "Advanced",
+    "description": "Parsing macromolecular crystallographic structures (1fat.cif, 1gbt.bcif), extracting ligand coordinates, and computing spatial contact networks.",
+    "tools": ["Bio.PDB", "gemmi", "3Dmol.js", "PyMOL"],
+    "path": "structural_biology/ProteinLigandAnalysis.ipynb"
+  }
+]

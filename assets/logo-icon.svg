@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="70%" stop-color="#090d16" />
+      <stop offset="100%" stop-color="#030712" />
+    </radialGradient>
+
+    <!-- Cyan Glow & Gradient -->
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#06b6d4" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+
+    <!-- Emerald / Python Green Gradient -->
+    <linearGradient id="greenGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#6ee7b7" />
+    </linearGradient>
+
+    <!-- Gold Accent for Python classic contrast -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fbbf24" />
+      <stop offset="100%" stop-color="#f59e0b" />
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="intenseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="14" result="blur1" />
+      <feGaussianBlur stdDeviation="4" result="blur2" />
+      <feMerge>
+        <feMergeNode in="blur1" />
+        <feMergeNode in="blur2" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background Orb with Tech Rim -->
+  <circle cx="256" cy="256" r="240" fill="url(#bgGrad)" stroke="#1e293b" stroke-width="4" />
+  <circle cx="256" cy="256" r="236" fill="none" stroke="url(#cyanGrad)" stroke-width="1.5" stroke-dasharray="8 6" opacity="0.6" />
+  
+  <!-- Outer Orbiting Molecular Nodes -->
+  <g opacity="0.75">
+    <circle cx="100" cy="180" r="4" fill="#38bdf8" filter="url(#neonGlow)" />
+    <circle cx="412" cy="320" r="5" fill="#34d399" filter="url(#neonGlow)" />
+    <circle cx="390" cy="140" r="3.5" fill="#38bdf8" />
+    <circle cx="130" cy="380" r="4.5" fill="#34d399" />
+  </g>
+
+  <!-- Base Pair Rungs (Hydrogen bonds between DNA strands) -->
+  <g stroke-linecap="round" opacity="0.85">
+    <!-- Top Pair -->
+    <line x1="205" y1="120" x2="307" y2="120" stroke="#06b6d4" stroke-width="3" stroke-dasharray="5 4" />
+    <circle cx="205" cy="120" r="5" fill="#38bdf8" filter="url(#neonGlow)" />
+    <circle cx="307" cy="120" r="5" fill="#34d399" filter="url(#neonGlow)" />
+
+    <!-- Pair 2 -->
+    <line x1="230" y1="170" x2="282" y2="170" stroke="#0ea5e9" stroke-width="3.5" />
+    <circle cx="230" cy="170" r="5" fill="#38bdf8" />
+    <circle cx="282" cy="170" r="5" fill="#34d399" />
+
+    <!-- Center Node Cross (Major intersection) -->
+    <circle cx="256" cy="225" r="7" fill="#ffffff" filter="url(#intenseGlow)" />
+    
+    <!-- Pair 4 -->
+    <line x1="225" y1="285" x2="287" y2="285" stroke="#10b981" stroke-width="3.5" />
+    <circle cx="225" cy="285" r="5.5" fill="#38bdf8" />
+    <circle cx="287" cy="285" r="5.5" fill="#34d399" />
+
+    <!-- Pair 5 -->
+    <line x1="195" y1="340" x2="317" y2="340" stroke="#10b981" stroke-width="3" stroke-dasharray="5 4" />
+    <circle cx="195" cy="340" r="5" fill="#38bdf8" filter="url(#neonGlow)" />
+    <circle cx="317" cy="340" r="5" fill="#34d399" filter="url(#neonGlow)" />
+
+    <!-- Bottom Pair -->
+    <line x1="220" y1="395" x2="292" y2="395" stroke="#06b6d4" stroke-width="3" />
+    <circle cx="220" cy="395" r="4.5" fill="#38bdf8" />
+    <circle cx="292" cy="395" r="4.5" fill="#34d399" />
+  </g>
+
+  <!-- Strand 1: Cyan Helical Ribbon (Biopython Digital Matrix) -->
+  <path d="M 195 90 
+           C 160 140, 220 200, 256 225 
+           C 292 250, 350 310, 315 365
+           C 285 415, 235 410, 205 435"
+        fill="none" 
+        stroke="url(#cyanGrad)" 
+        stroke-width="14" 
+        stroke-linecap="round"
+        filter="url(#neonGlow)" />
+
+  <!-- Strand 2: Emerald Green Python Serpent Ribbon -->
+  <path d="M 315 90 
+           C 350 140, 290 200, 256 225 
+           C 220 250, 160 310, 195 365
+           C 225 415, 275 410, 305 435" 
+        fill="none" 
+        stroke="url(#greenGrad)" 
+        stroke-width="14" 
+        stroke-linecap="round"
+        filter="url(#neonGlow)" />
+
+  <!-- Stylized Python Crest / Serpent Head Motif at Top -->
+  <g transform="translate(195, 80)">
+    <circle cx="0" cy="0" r="11" fill="url(#cyanGrad)" filter="url(#intenseGlow)" />
+    <circle cx="2" cy="-2" r="3" fill="#ffffff" />
+  </g>
+  <g transform="translate(315, 80)">
+    <circle cx="0" cy="0" r="11" fill="url(#greenGrad)" filter="url(#intenseGlow)" />
+    <circle cx="-2" cy="-2" r="3" fill="#ffffff" />
+  </g>
+
+  <!-- Lower Terminal Ribbon Nodes -->
+  <circle cx="205" cy="435" r="8" fill="url(#cyanGrad)" filter="url(#neonGlow)" />
+  <circle cx="305" cy="435" r="8" fill="url(#greenGrad)" filter="url(#neonGlow)" />
+
+  <!-- Central Scientific Core Symbol: Geometric Diamond Flare -->
+  <polygon points="256,215 264,225 256,235 248,225" fill="#ffffff" filter="url(#intenseGlow)" />
+</svg>
