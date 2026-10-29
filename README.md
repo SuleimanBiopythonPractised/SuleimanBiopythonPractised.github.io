@@ -24,6 +24,11 @@
 
 **`SuleimanBiopythonPractised.github.io`** is the public-facing interactive web application for the **SuleimanBiopythonPractised Organization**. It translates Python/Biopython workflows, statistical ANOVA models, and 3D macromolecular structures into real-time browser experiences.
 
+> [!IMPORTANT]
+> ### 🔒 Məlumatların Məxfiliyi və Giriş (Access) Müraciəti / Private Data & Repository Access
+> - **🇦🇿 AZ:** Bu təşkilatın əsas məlumat bazası (raw datasets), eksperimental biostatistika modelləri və backend kodları ([`SuleimanBiopythonPractised`](https://github.com/SuleimanBiopythonPractised/SuleimanBiopythonPractised)) **Private (Məxfi)** statusdadır. Əgər məlumatlara və ya repozitoriyaya giriş (access) əldə etmək istəyirsinizsə, elektron poçt ünvanıma müraciət edə bilərsiniz: **[suleyman.hacizade1@gmail.com](mailto:suleyman.hacizade1@gmail.com)**
+> - **🇬🇧 EN:** The core biological datasets, Jupyter research notebooks, and backend computational pipelines ([`SuleimanBiopythonPractised`](https://github.com/SuleimanBiopythonPractised/SuleimanBiopythonPractised)) are stored in a **Private** repository. If you wish to request access, please apply via email: **[suleyman.hacizade1@gmail.com](mailto:suleyman.hacizade1@gmail.com)**
+
 ### Key Interactive Features
 
 1. **🧬 Live Biopython Sequence Studio**:
